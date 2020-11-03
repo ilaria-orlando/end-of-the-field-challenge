@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 
 .container{
     width: 1135px;
     height: 451px;
-    border-style: solid;
-    border-color: red;
     background-color: #020202;
     color: white;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .content{
@@ -32,7 +31,7 @@ a:link, a:hover, a:active a:visited{
 nav{
     font-size: 32px;
     margin: -5px 0px 0px -5px;
-    font-weight: bold;
+    line-height: 48px;
 
 }
 
@@ -54,11 +53,12 @@ nav{
 
 .listtitle{
     padding-bottom: 10px;
+    line-height: 25px;
 }
 
 .subitem {
-    color: #4b4b4b;
-    padding-bottom: 6px;
+    color: #b1b1b1;
+    padding-bottom: 12px;
 }
 
 footer{
@@ -69,10 +69,10 @@ footer{
 }
 
 .foottitle{
-    padding: 5px 20px 5px 10px;
+    padding: 5px 30px 5px 20px;
     font-size: 30px;
 }
 
 .textgrey{
-    color: #4b4b4b;
+    color: #b1b1b1;
 }
