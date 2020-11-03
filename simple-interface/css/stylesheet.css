@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&display=swap');
+
+body{
+    background-color: #e5e5e5;
+}
+.card{
+    display: flex;
+    width: 320px;
+    height: 105px;
+    margin: 13px 11px;
+    background-color: white;
+    border-radius: 13px;
+
+}
+
+.text{
+    width: 200px;
+    height: 75px;
+    padding: 0px 5px 15px 19px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.topic{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+.artlink{
+    margin-top: -8px;
+    text-transform: capitalize;
+}
+
+img{
+    padding: 16px 20px 0px 0px;
+}
+
+#mockup {
+     width: 347px;
+     height: 130px;
+     background-image: url(img/interface.01.png);
+
+     position: absolute;
+     top: 0;
+     left: 0;
+
+     opacity: 0.2;
+     z-index: 10;
+     pointer-events: none;
+ }
+
