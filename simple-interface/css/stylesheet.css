@@ -39,17 +39,3 @@ img{
     padding: 16px 20px 0px 0px;
 }
 
-#mockup {
-     width: 347px;
-     height: 130px;
-     background-image: url(img/interface.01.png);
-
-     position: absolute;
-     top: 0;
-     left: 0;
-
-     opacity: 0.2;
-     z-index: 10;
-     pointer-events: none;
- }
-

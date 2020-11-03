@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
 #mockup {
     width: 1135px;
     height: 451px;
@@ -10,11 +12,21 @@
     pointer-events: none;
 }
 
+
 .container{
     width: 1135px;
     height: 451px;
     border-style: solid;
     border-color: red;
+    background-color: #020202;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 li{
@@ -23,4 +35,33 @@ li{
 
 a{
     text-decoration: none;
+}
+
+a:link, a:hover, a:active a:visited{
+    color: white;
+}
+
+nav{
+    font-size: 32px;
+}
+
+.lists{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    padding: 20px 25px 0px 0px;
+}
+
+.column{
+    padding-right: 28px;
+}
+
+listtitle{
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
