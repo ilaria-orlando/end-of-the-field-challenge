@@ -1,0 +1,26 @@
+#mockup {
+    width: 1135px;
+    height: 451px;
+    background-image: url(complex.05.png);
+
+    position: absolute;
+
+    opacity: 0.2;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.container{
+    width: 1135px;
+    height: 451px;
+    border-style: solid;
+    border-color: red;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
