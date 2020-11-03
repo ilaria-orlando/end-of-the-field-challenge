@@ -14,8 +14,8 @@ Interface 5 (complex) is optimized for mobile by change flex properties in a sma
 * Photoshop for editing and color references
 
 ## Interfaces ##
-* Interface (simple) 1
-* Interface (complex) 5
+* Interface (simple) 1 -> https://ilaria-orlando.github.io/end-of-the-field-challenge/simple-interface/interface1.html
+* Interface (complex) 5 -> https://ilaria-orlando.github.io/end-of-the-field-challenge/complex-interface/complex-interface.html
 
 ## Creator ##
 Created by Ilaria Orlando for BeCode
