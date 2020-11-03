@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
-#mockup {
-    width: 1135px;
-    height: 451px;
-    background-image: url(complex.05.png);
-
-    position: absolute;
-
-    opacity: 0.2;
-    z-index: 10;
-    pointer-events: none;
-}
-
-
 .container{
     width: 1135px;
     height: 451px;
@@ -27,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 340px;
 }
 
 li{
@@ -43,25 +31,48 @@ a:link, a:hover, a:active a:visited{
 
 nav{
     font-size: 32px;
+    margin: -5px 0px 0px -5px;
+    font-weight: bold;
+
 }
 
 .lists{
     display: flex;
     flex-flow: wrap;
     justify-content: flex-end;
-    padding: 20px 25px 0px 0px;
+    padding: 18px 0px 0px 5px;
+    margin-right: -5px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .column{
-    padding-right: 28px;
+    padding: 0px;
+    margin-left: -20px;
+    width: 178px;
 }
 
-listtitle{
+.listtitle{
+    padding-bottom: 10px;
+}
 
+.subitem {
+    color: #4b4b4b;
+    padding-bottom: 6px;
 }
 
 footer{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.foottitle{
+    padding: 5px 20px 5px 10px;
+    font-size: 30px;
+}
+
+.textgrey{
+    color: #4b4b4b;
 }
